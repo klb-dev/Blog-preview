@@ -72,11 +72,23 @@ h2 {
     margin-bottom: var(--size-font-small)
 }
 
+a {
+    text-decoration: none;
+    color: var(--neutral-gray-950);
+}
+
+a:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
 h1{
     font-size: var(--size-font-large);
     font-weight: var(--weight-bold);
     margin-bottom: var(--size-font-small);
 }
+
+h1
 
 p {
     width: 35ch;
